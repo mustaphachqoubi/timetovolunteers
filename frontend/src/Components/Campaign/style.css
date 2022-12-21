@@ -1,0 +1,325 @@
+/* .Campaign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  max-width: 50vh;
+  height: 50vh;
+  padding: 10px;
+}
+
+.Campaign_target_percent {
+  color: #22c55e;
+  font-weight: 500;
+}
+
+.Campaign_target_price {
+  font-weight: 500;
+}
+
+.Campaign_target {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Campaign_loading {
+  border: 1.5px solid black;
+  height: 10px;
+  background-color: #e5e7eb;
+  position: relative;
+}
+
+.Campaign_loading_mover {
+  background-color: #22c55e;
+  width: 68%;
+  height: 11px;
+  position: absolute;
+  bottom: 4px;
+  left: 5px;
+  border: 1.5px solid black;
+}
+
+.Campaign_creator {
+  color: #9ca3af;
+  font-size: small;
+  font-weight: 500;
+}
+
+.Campaign_title {
+  font-size: large;
+}
+
+.Campaign_image_container {
+  max-width: 50vh;
+  max-height: 25vh;
+  border: 2px solid black;
+}
+
+.Campaign_image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: block;
+} */
+
+.Campaign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  max-width: 50vh;
+  height: 50vh;
+  padding: 10px;
+}
+
+.Campaign_target_percent {
+  color: #22c55e;
+  font-weight: 500;
+}
+
+.Campaign_target_price {
+  font-weight: 500;
+}
+
+.Campaign_target {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Campaign_loading {
+  border: 1.5px solid black;
+  height: 10px;
+  background-color: #e5e7eb;
+  position: relative;
+}
+
+.Campaign_loading_mover {
+  background-color: #22c55e;
+  width: 68%;
+  height: 11px;
+  position: absolute;
+  bottom: 4px;
+  left: 5px;
+  border: 1.5px solid black;
+}
+
+.Campaign_creator {
+  color: #9ca3af;
+  font-size: small;
+  font-weight: 500;
+}
+
+.Campaign_title {
+  font-size: large;
+}
+
+.Campaign_image_container {
+  max-width: 50vh;
+  max-height: 25vh;
+  border: 2px solid black;
+}
+
+.Campaign_image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* 
+@media (min-width: 768px) {
+  .Campaign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    max-width: 50vh;
+    height: 50vh;
+    padding: 10px;
+  }
+
+  .Campaign_target_percent {
+    color: #22c55e;
+    font-weight: 500;
+  }
+
+  .Campaign_target_price {
+    font-weight: 500;
+  }
+
+  .Campaign_target {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Campaign_loading {
+    border: 1.5px solid black;
+    height: 10px;
+    background-color: #e5e7eb;
+    position: relative;
+  }
+
+  .Campaign_loading_mover {
+    background-color: #22c55e;
+    width: 68%;
+    height: 11px;
+    position: absolute;
+    bottom: 4px;
+    left: 5px;
+    border: 1.5px solid black;
+  }
+
+  .Campaign_creator {
+    color: #9ca3af;
+    font-size: small;
+    font-weight: 500;
+  }
+
+  .Campaign_title {
+    font-size: large;
+  }
+
+  .Campaign_image_container {
+    max-width: 50vh;
+    max-height: 25vh;
+    border: 2px solid black;
+  }
+
+  .Campaign_image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Campaign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    max-width: 50vh;
+    height: 50vh;
+    padding: 10px;
+  }
+
+  .Campaign_target_percent {
+    color: #22c55e;
+    font-weight: 500;
+  }
+
+  .Campaign_target_price {
+    font-weight: 500;
+  }
+
+  .Campaign_target {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Campaign_loading {
+    border: 1.5px solid black;
+    height: 10px;
+    background-color: #e5e7eb;
+    position: relative;
+  }
+
+  .Campaign_loading_mover {
+    background-color: #22c55e;
+    width: 68%;
+    height: 11px;
+    position: absolute;
+    bottom: 4px;
+    left: 5px;
+    border: 1.5px solid black;
+  }
+
+  .Campaign_creator {
+    color: #9ca3af;
+    font-size: small;
+    font-weight: 500;
+  }
+
+  .Campaign_title {
+    font-size: large;
+  }
+
+  .Campaign_image_container {
+    max-width: 50vh;
+    max-height: 25vh;
+    border: 2px solid black;
+  }
+
+  .Campaign_image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+@media (min-width: 1280px) {
+  .Campaign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    max-width: 50vh;
+    height: 50vh;
+    padding: 10px;
+  }
+
+  .Campaign_target_percent {
+    color: #22c55e;
+    font-weight: 500;
+  }
+
+  .Campaign_target_price {
+    font-weight: 500;
+  }
+
+  .Campaign_target {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Campaign_loading {
+    border: 1.5px solid black;
+    height: 10px;
+    background-color: #e5e7eb;
+    position: relative;
+  }
+
+  .Campaign_loading_mover {
+    background-color: #22c55e;
+    width: 68%;
+    height: 11px;
+    position: absolute;
+    bottom: 4px;
+    left: 5px;
+    border: 1.5px solid black;
+  }
+
+  .Campaign_creator {
+    color: #9ca3af;
+    font-size: small;
+    font-weight: 500;
+  }
+
+  .Campaign_title {
+    font-size: large;
+  }
+
+  .Campaign_image_container {
+    max-width: 50vh;
+    max-height: 25vh;
+    border: 2px solid black;
+  }
+
+  .Campaign_image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+} */
